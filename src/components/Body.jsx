@@ -40,9 +40,9 @@ const Body = () => {
             Blog
           </a>
           <div className="inline-block relative group">
-              <button className="text-gray-800 text-lg hover:text-custom-blue font-bold">
+                <button className="text-gray-800 text-lg hover:text-custom-blue font-bold">
               Tools
-              <i className=" fas fa-chevron-down"></i>
+              <i className=" px-3 fas fa-chevron-down"></i>
             </button>
             {/* Dropdown menu */}
             <ul className="absolute hidden group-hover:block
