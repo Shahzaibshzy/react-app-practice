@@ -74,13 +74,14 @@ const Body = () => {
             Contact
           </a>
         </nav>
-        <div className="flex justify-center space-x-3 mx-44 -mt-3">
+         <div className="flex justify-end space-x-3 sm:mx-20 lg:mx-44 ">
           <a
             href="/login"
             className="text-black text-md font-bold py-2.5 px-3 border
              border-gray-800 inline-block flex items-center
              rounded-sm transition-colors duration-200
-              hover:bg-blue-900 hover:text-white"
+              hover:bg-blue-900 hover:text-white text-md md:text-sm lg:text-md 
+               transform scale-100 sm:scale-50 md:scale-75 lg:scale-100"
           >
             Login
           </a>
@@ -92,7 +93,8 @@ const Body = () => {
              rounded-lg text-lg 
              transition-colors duration-200 
              hover:!bg-white
-              hover:!border-blue-950 hover:!text-blue-900"
+              hover:!border-blue-950 hover:!text-blue-900 md:text-sm lg:text-lg 
+               md:py-2 md:px-2 lg:py-2.5 lg:px-3 transform scale-100 sm:scale-50 md:scale-75 lg:scale-100"
           >
             Get Started Free
           </a>
