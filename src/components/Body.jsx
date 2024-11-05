@@ -86,7 +86,7 @@ const Body = () => {
             href="/get-started"
             className="bg-custom-blue text-white border
              border-custom-blue rounded-lg py-2 px-3 md:py-3
-              md:px-2.5 text-[15] md:text-md lg:text-[15px] lg:font-normal
+              md:px-2.5 text-md md:text-md lg:text-md lg:font-normal
               transform scale-125 md:scale-110 sm:scale-90 
               transition-colors duration-200
                hover:!bg-white hover:!border-blue-950 hover:!text-blue-900"
