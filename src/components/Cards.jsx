@@ -5,7 +5,7 @@ import sections from "../resources/sections";
 
 const Card = () => {
   return (
-    <div className="trainingarea sp_bottom_20 -mt-20 sm:-mt-24 md:-mt-18 lg:-mt-28" data-aos="fade-up">
+    <div className="trainingarea sp_bottom_20 -mt-20 sm:mt-10 md:mt-20 lg:-mt-28" data-aos="fade-up">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center -mx-3">
           {sections.map((section, index) => (
